@@ -9,14 +9,17 @@ $(function() {
 
   $("form").submit(function(event){
     event.preventDefault();
-    $("#output").text("");
+    $("#output").text("");//Clears output form on next input click
     var userInput = $("#userInput").val();
     for (var index = 1; index <= userInput; index += 1) {
-      if(index % 5 === 0){
-        $("#output").append("<li>" + "pong" + "</li>");
+      if(index % 15 === 0){
+        $("#output").append("<li>" + "ping-pong" + "</li>");
       }
       else if(index % 3 === 0) {
         $("#output").append("<li>" + "pong" + "</li>");
+      }
+      else if(index % 3 === 0) {
+        $("#output").append("<li>" + "ping" + "</li>");
       }
 
       else
