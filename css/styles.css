@@ -1,15 +1,21 @@
+body {
+  background-color: rgba(231, 230, 225, 0.7);
+}
+
 .jumbotron {
   text-align: center;
   background-color: rgba(222, 200, 0, 0.7);
   font-family: 'Monoton', cursive;
 }
 
-body {
-  background-color: rgba(231, 230, 225, 0.7)
-}
-
 .container {
   text-align: center;
+  background-image: url(../img/tablewide.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 90%;
+  min-height: 600px;
+  padding-top: 4%;
 }
 
 .form-group {
@@ -19,4 +25,11 @@ body {
 .container1 img {
   border-radius: 20px;
   height: 202px;
+}
+
+.form-group {
+  border: rgba(255, 43, 43, 0.5);;
+  border-style: solid;
+  width: 50%;
+  padding-top: 1%;
 }

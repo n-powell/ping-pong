@@ -1,7 +1,7 @@
-//Business Logic
-var everyThird = "ping"
-var everyFifth = "pong"
-var everyFifteenth = "ping-pong"
+//Business
+var everyThird = "ping" //these are unnecesary but I wanted some business logic variables
+var everyFifth = "pong" //these are unnecesary but I wanted some business logic variables
+var everyFifteenth = "ping-pong" //these are unnecesary but I wanted some business logic variables
 
 
 //User Logic
@@ -9,16 +9,21 @@ $(function() {
   $("form").submit(function(event) {
     event.preventDefault();
     $("#output").text(""); //Clears output form on next input click
+    $("#ifVictory").text(""); //Clears output form on next input click
     var userInput = $("#userInput").val();
     for (var index = 1; index <= userInput; index += 1) {
       if (index % 15 === 0) {
-        $("#output").append("<br><li>" + "ping-pong" + "</li><br>");
-      } else if (index % 5 === 0) {
-        $("#output").append("<li>" + "pong" + "</li>")
-      } else if (index % 3 === 0) {
-        $("#output").append("<li>" + "ping" + "</li>");
-      } else
-        $("#output").append("<li>" + index + "</li>");
+        $("#ifVictory").text("The ball got stuck under the couch, try again")
+        $("#output").append("<br><li>" + everyFifteenth + "</li><br>");
+      }else if (index % 5 === 0) {
+        $("#ifVictory").text("Of course you have just lost to Derek Zoolander at Ping-Pong")
+        $("#output").append("<li>" + everyFifth + "</li>")
+      }else if (index % 3 === 0) {
+        $("#ifVictory").text("You have just beaten Derek Zoolander at Ping-Pong")
+        $("#output").append("<li>" + everyThird + "</li>");
+      }else
+        $("#ifVictory").text("A lot of hard work, but still no winner, play again")
+      $("#output").append("<li>" + index + "</li>");
     }
   });
 });

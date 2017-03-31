@@ -35,7 +35,7 @@ Copyright (c) _Nicholas Powell_
 
 
 
-#### _Behavior Driven Design_
+## _Behavior Driven Design_
 
 #### _If a user inputs a number, It will display that number._
 * _Example:_
