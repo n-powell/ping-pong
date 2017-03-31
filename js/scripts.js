@@ -12,7 +12,10 @@ $(function() {
     $("#output").text("");
     var userInput = $("#userInput").val();
     for (var index = 1; index <= userInput; index += 1) {
-      $("#output").append("<li>" + index + "</li>");
+      if((index % 3) === 0){
+        $("#output").append("<li>" + "ping" + "</li>");
+      }
+      else $("#output").append("<li>" + index + "</li>");
     }
 
   });
