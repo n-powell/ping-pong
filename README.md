@@ -2,6 +2,11 @@ BDD
 
 Behavior Driven Design
 
+If a user inputs a number, It will display that number.
+Example:
+Input: 15
+Output: 15
+
 
 If a user inputs a number, It will count up to that number by 1 using whole numbers.
 Example:
@@ -21,7 +26,7 @@ Input: 15
 Output: 1,2,ping,4,pong,ping,6,7,8,ping,pong,11,ping,13,14,pong
 
 
-If a user inputs a number, It will count up to that number by 1 using whole numbers. Each number that is divisible by 55 will be replaced by "pingpong"
+If a user inputs a number, It will count up to that number by 1 using whole numbers. Each number that is divisible by 15 will be replaced by "pingpong"
 Example:
 Input: 15
 Output: 1,2,ping,4,pong,ping,6,7,8,ping,pong,11,ping,13,14,pingpong
