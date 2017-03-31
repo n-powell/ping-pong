@@ -15,7 +15,7 @@ body {
   background-position: top;
   background-size: 90%;
   min-height: 600px;
-  padding-top: 4%;
+  padding-top: 5%;
 }
 
 .form-group {
@@ -24,12 +24,12 @@ body {
 
 .container1 img {
   border-radius: 20px;
-  height: 202px;
+  height: 220px;
 }
 
 .form-group {
   border: rgba(255, 43, 43, 0.5);;
   border-style: solid;
   width: 50%;
-  padding-top: 1%;
+  padding-top: 2%;
 }
