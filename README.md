@@ -1,3 +1,44 @@
+# _Ping-Pong_
+
+#### _Ping-Pong game, March 31, 2017_
+
+#### By _Nick Powell_
+
+## Description
+
+_This is a quick ping pong project that accepts a users input number and bounces back ping pong values depending on divisibilities between zero and the users input number._
+_Live link to github pages-_ https://n-powell.github.io/ping-pong/
+
+## Setup/Install
+
+* _Clone directory from github using git_
+* _Navigate into downloaded directory file using a terminal or your operating systems GUI finder_
+* _Open index.html file using a web browser_
+
+## Known Bugs
+
+_No known bugs at this time. However, if you enter a very large number. Please allow a few moments for your CPU to calculate._
+
+## Support details
+
+_Contact Nick Powell via e-mail for support details at nickpowell@gmail.com._
+
+## Technologies used
+
+_This site was created using hypertext markup language (html), Cascading Style Sheets (CSS), and Javascript. With CSS help from bootstrap style sheets and js help from jquery. This page was written using ATOM text editing software._
+
+### License
+
+* Licensed under MIT licensing.*
+
+Copyright (c) _Nicholas Powell_
+
+
+
+
+
+
+
 BDD
 
 Behavior Driven Design

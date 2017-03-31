@@ -1,0 +1,21 @@
+.jumbotron {
+  text-align: center;
+  background-color: rgba(141, 106, 7, 0.4)
+}
+
+body {
+  background-color: rgba(141, 106, 7, 0.1)
+}
+
+.container {
+  text-align: center;
+}
+
+.form-group {
+  text-align: center;
+}
+
+.container1 img {
+  border-radius: 20px;
+  height: 202px;
+}
