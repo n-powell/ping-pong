@@ -1,10 +1,11 @@
 .jumbotron {
   text-align: center;
-  background-color: rgba(141, 106, 7, 0.4)
+  background-color: rgba(222, 200, 0, 0.7);
+  font-family: 'Monoton', cursive;
 }
 
 body {
-  background-color: rgba(141, 106, 7, 0.1)
+  background-color: rgba(231, 230, 225, 0.7)
 }
 
 .container {

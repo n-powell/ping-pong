@@ -35,33 +35,33 @@ Copyright (c) _Nicholas Powell_
 
 
 
-# _Behavior Driven Design_
+#### _Behavior Driven Design_
 
-# _If a user inputs a number, It will display that number._
+#### _If a user inputs a number, It will display that number._
 * _Example:_
 * _Input: 15_
 * _Output: 15_
 
 
-# _If a user inputs a number, It will count up to that number by 1 using whole numbers._
+#### _If a user inputs a number, It will count up to that number by 1 using whole numbers._
 * _Example:_
 * _Input: 15_
 * _Output: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15._
 
 
-# _If a user inputs a number, It will count up to that number by 1 using whole numbers. Each number that is divisible by 3 will be replaced by "ping"._
+#### _If a user inputs a number, It will count up to that number by 1 using whole numbers. Each number that is divisible by 3 will be replaced by "ping"._
 * _Example:_
 * _Input: 15_
 * _Output: 1,2,ping,4,5,ping,6,7,8,ping,10,11,ping,13,14,ping_
 
 
-# _If a user inputs a number, It will count up to that number by 1 using whole numbers. Each number that is divisible by 5 will be replaced by "pong"._
+#### _If a user inputs a number, It will count up to that number by 1 using whole numbers. Each number that is divisible by 5 will be replaced by "pong"._
 * _Example:_
 * _Input: 15_
 * _Output: 1,2,ping,4,pong,ping,6,7,8,ping,pong,11,ping,13,14,pong_
 
 
-# _If a user inputs a number, It will count up to that number by 1 using whole numbers. Each number that is divisible by 15 will be replaced by "pingpong"_
+#### _If a user inputs a number, It will count up to that number by 1 using whole numbers. Each number that is divisible by 15 will be replaced by "pingpong"_
 * _Example:_
 * _Input: 15_
 * _Output: 1,2,ping,4,pong,ping,6,7,8,ping,pong,11,ping,13,14,pingpong_
