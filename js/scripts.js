@@ -4,13 +4,13 @@
       var array = []
     for (var index = 1; index <= input; index += 1) {
       if (index % 15 === 0) {
-        array.push("<br><li>" + "Ping-Pong" + "</li><br>");
+        array.push("Ping-Pong");
       }else if (index % 5 === 0) {
-        array.push("<li>" + "Pong" + "</li>");
+        array.push("Pong");
       }else if (index % 3 === 0) {
-        array.push("<li>" + "Ping" + "</li>");
+        array.push("Ping");
       }else
-        array.push("<li>" + index + "</li>");
+        array.push(index);
       };
     return array;
   };
@@ -25,7 +25,7 @@ $(function() {
     var input = $("input#userInput").val();//Creates variable set to user input
     var displayHits = divisibility(input);
     displayHits.forEach(function(output){
-      $("#output").append(output);
+      $("#output").append("<li>" + output + "</li>");
     });
 
   });
